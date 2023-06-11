@@ -8,28 +8,60 @@ exports[`renders a snapshot 1`] = `
     className="App-header"
   >
     <h2>
-      Test
+      Testing using Screenshot
     </h2>
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
     >
-      Learn React
-    </a>
+      <img
+        alt="@Kal0yanX"
+        className="card-img-top"
+        src="Profile.png"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          <h1>
+            GitHub Profile
+          </h1>
+        </div>
+        <p
+          className="card-text"
+        >
+          Click below for a link to my GitHub Profile.
+        </p>
+      </div>
+      <div
+        className="list-group-flush list-group"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="list-group-item"
+          data-rr-ui-event-key={null}
+          onClick={[Function]}
+        >
+          Snapshot Testing Page for Activity RR-8
+        </div>
+      </div>
+      <div
+        className="card-body"
+      >
+        <a
+          className="card-link"
+          href="https://github.com/Kal0yanX"
+        >
+          GitHub Link
+        </a>
+      </div>
+    </div>
   </header>
 </div>
 `;
